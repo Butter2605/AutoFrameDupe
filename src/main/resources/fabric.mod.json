@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "butter-frame-dupe",
+  "id": "butter-framedupe",
   "version": "${version}",
-  "name": "Butter FrameDupe",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "AutoFrameDupe",
+  "description": "AutoFrameDupe from LeuxBackdoor",
   "authors": [
     "Butter"
   ],
   "contact": {
-    "sources": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "me.butter.framedupe.FrameDupeAddon"
+      "me.butter.addon.AutoFrameDupeAddon"
     ]
   },
   "custom": {
@@ -22,7 +22,7 @@
   },
   "depends": {
     "java": ">=21",
-    "minecraft": ["${mc_version}", "1.21.7", "1.21.6"],
+    "minecraft": ["${mc_version}"],
     "meteor-client": "*"
   }
 }
